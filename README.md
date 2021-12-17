@@ -65,7 +65,7 @@ Armazenar dados em um config.json é uma maneira comum de manter seus valores co
 
 **O que é a index.js?**
 
-index.js é o arquivo mais importante para seu bot ele ira armazena os principais codigos do seu bot,mas voce pode mudar para qualquer nome basta e no package.json arquivo e editar o ```"main": "index.js"``` colocando no lugar do mome index 
+index.js é o arquivo mais importante para seu bot ele ira armazena os principais codigos do seu bot,mas voce pode mudar para qualquer nome basta e no package.json arquivo e editar o ```"main": "index.js"``` colocando no lugar do nome index 
 
 ...
 
