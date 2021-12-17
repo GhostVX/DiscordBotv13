@@ -19,7 +19,7 @@ Node.js é um ambiente de tempo de execução JavaScript de código aberto, mult
 
 disscord.js v13 requer o Node v16.6.0 ou superior.
 
-**Apos ter instalado o node js é so copiar o nosso repositório e começar a programar!*
+**Apos ter instalado o node js é so copiar o nosso repositório e começar a programar!**
 
 ```
 git clone https://github.com/kettraworld/DiscordBotv13
