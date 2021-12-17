@@ -61,7 +61,7 @@ Um token é essencialmente a senha do seu bot; é o que o seu bot usa para fazer
 
 **O que é Config.json?**
 
-Armazenar dados em um config.json é uma maneira comum de manter seus valores confidenciais protegidos. Crie um config.jsonarquivo no diretório do seu projeto e cole no seu token. Você pode acessar seu token dentro de outros arquivos usando require().
+Armazenar dados em um config.json é uma maneira comum de manter seus valores confidenciais protegidos. Crie um config.json arquivo no diretório do seu projeto e cole no seu token. Você pode acessar seu token dentro de outros arquivos usando ```require().```
 
 **O que é a index.js?**
 
