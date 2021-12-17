@@ -11,7 +11,11 @@ Nossa equipe estar desenvolvendo um bot da discórdia e resolveu compartilhar co
 Os bots são “robôs” que ajudam no gerenciamento de canais no Discord e são muito úteis para adicionar funções que a plataforma não possui nativamente. Essas vão desde identificar spam, criar resposta automáticas automatizar tarefas diárias até mesmo colocar músicas para tocar em um canal
 
 # instalação 
-![](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) 
+
+Primeiro, você precisa de um editor de código adequado,para começar a desenvolver seu projeto,baixe o que você ja estar mas acostumado usar e veja os próximos passos!
+
+
+![](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)  
 
 **O que é node js?**
 
