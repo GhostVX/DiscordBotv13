@@ -88,6 +88,20 @@ index.js é o arquivo mais importante para seu bot ele ira armazena os principai
 arquivo package. json é o ponto de partida de qualquer projeto NodeJS. Ele é responsável por descrever o seu projeto, informar as engines (versão do node e do npm), url do repositório, versão do projeto, dependências de produção e de desenvolvimento dentre outras coisas.
 
 
+# index 
+
+este é o script mas importante em nosso bot,com apenas este código o nosso Bot consegui ja ficae online!
+```js
+//pega todas as informações sobre a biblioteca do discord!
+const Discord = require("discord.js"); 
+//definimos o cliente
+const client = new Discord.Client({intents: 32767});
+//pega as informações deste arquivo
+const config = require("./config.json");
+//deixamos o bot online com o seu token
+client.login(config.token); 
+```
+
 
 
 
