@@ -57,7 +57,10 @@ Neste painel, você pode dar ao seu bot um avatar estiloso, definir seu nome de 
 
 Um token é essencialmente a senha do seu bot; é o que o seu bot usa para fazer o login no Discord. Dito isso , é vital que você nunca compartilhe este token com ninguém, propositalmente ou acidentalmente . Se alguém conseguir obter seu token, ele poderá usar seu bot como se fosse dele - isso significa que pode realizar atos maliciosos com ele.
 
-# arquivos principais
+# arquivos principais 
+
+**Config.json**
+Armazenar dados em um config.json o arquivo é uma maneira comum de manter seus valores confidenciais protegidos. Crie um config.jsonarquivo no diretório do seu projeto e cole no seu token. Você pode acessar seu token dentro de outros arquivos usando require().
 
 ...
 
