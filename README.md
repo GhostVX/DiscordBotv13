@@ -54,6 +54,7 @@ Clique no botão "Adicionar Bot" à direita e confirme a janela pop-up clicando 
 Neste painel, você pode dar ao seu bot um avatar estiloso, definir seu nome de usuário e torná-lo público ou privado. Você também pode acessar seu token neste painel, revelando-o ou pressionando o botão "Copiar". Quando pedimos que você cole seu token em algum lugar, este é o valor que você precisa inserir. Não se preocupe se acontecer de você perdê-lo em algum momento; você pode sempre voltar a esta página e copiá-la novamente.
 
 **O Que é o token do bot?**
+
 Um token é essencialmente a senha do seu bot; é o que o seu bot usa para fazer o login no Discord. Dito isso , é vital que você nunca compartilhe este token com ninguém, propositalmente ou acidentalmente . Se alguém conseguir obter seu token, ele poderá usar seu bot como se fosse dele - isso significa que pode realizar atos maliciosos com ele.
 
 ...
