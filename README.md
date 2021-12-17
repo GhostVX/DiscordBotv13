@@ -33,3 +33,4 @@ git clone https://github.com/kettraworld/DiscordBotv13
 ```
 npm install 
 ```
+# criando o bot no portal 
