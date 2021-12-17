@@ -90,7 +90,7 @@ arquivo package. json é o ponto de partida de qualquer projeto NodeJS. Ele é r
 
 # index 
 
-este é o script mas importante em nosso bot,com apenas este código o nosso Bot consegui ja ficae online!
+este é o script mas importante em nosso bot,com apenas este código o nosso Bot consegui ja fica online!
 ```js
 //pega todas as informações sobre a biblioteca do discord!
 const Discord = require("discord.js"); 
