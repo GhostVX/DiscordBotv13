@@ -33,6 +33,11 @@ git clone https://github.com/kettraworld/DiscordBotv13
 ```
 npm install 
 ```
+**agora coloque o seu token em ```config.json``` e ligue seu bot com o comando:***
+```
+node .
+```
+
 # Configurando um aplicativo do bot
 
 Agora que instalou o Node, discord.js e com sorte o nosso repositório, você está quase pronto para começar a codificar! A próxima etapa que você precisa realizar é configurar um aplicativo de bot Discord real através do site do Discord.
@@ -81,6 +86,8 @@ index.js é o arquivo mais importante para seu bot ele ira armazena os principai
 **O que é o package.json?**
 
 arquivo package. json é o ponto de partida de qualquer projeto NodeJS. Ele é responsável por descrever o seu projeto, informar as engines (versão do node e do npm), url do repositório, versão do projeto, dependências de produção e de desenvolvimento dentre outras coisas.
+
+
 
 
 
