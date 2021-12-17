@@ -18,3 +18,9 @@ Os bots são “robôs” que ajudam no gerenciamento de canais no Discord e sã
 Node.js é um ambiente de tempo de execução JavaScript de código aberto, multiplataforma e back-end que roda no mecanismo V8 e executa o código JavaScript fora de um navegador da web.
 
 Para usar discord.js, você precisará ter instalado. discord.js v13 requer o Node v16.6.0 ou superior.
+
+**Apos ter instalado o node js em seu computador,celular você precisara copiar o nosso repositório para poder a começar criar o seu bot em javascript!**
+
+```
+git clone https://github.com/kettraworld/DiscordBotv13
+```
