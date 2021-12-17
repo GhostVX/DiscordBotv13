@@ -115,6 +115,9 @@ na config.json fica armazenado coisas muitos importantes como tokens,senhas e et
 }
 ```
 
+# comandos 
+
+A menos que seu projeto de bot seja pequeno, não é uma idéia muito boa ter um único arquivo com um gigante ```if/ els if``` corrente para comandos. Se você deseja implementar recursos em seu bot e tornar seu processo de desenvolvimento muito menos penoso, você desejará implementar uma hadler. Vamos começar!
 
 
 
