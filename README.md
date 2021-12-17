@@ -33,6 +33,17 @@ git clone https://github.com/kettraworld/DiscordBotv13
 ```
 npm install 
 ```
-# Configurando um aplicativo de bot
+# Configurando um aplicativo do bot
 
 Agora que instalou o Node, discord.js e com sorte o nosso repositório, você está quase pronto para começar a codificar! A próxima etapa que você precisa realizar é configurar um aplicativo de bot Discord real através do site do Discord.
+
+É fácil criar um. As etapas que você precisa realizar são as seguintes:
+
+1 • Abra o portal do desenvolvedor Discord e faça login em sua conta.
+
+2 • Clique no botão "Novo aplicativo".
+
+3 • Insira um nome e confirme a janela pop-up clicando no botão "Criar".
+
+Você deverá ver uma página como esta:
+
