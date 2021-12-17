@@ -34,3 +34,5 @@ git clone https://github.com/kettraworld/DiscordBotv13
 npm install 
 ```
 # criando o bot no portal 
+
+Agora que instalou o Node, discord.js e com sorte o nosso repositório, você está quase pronto para começar a codificar! A próxima etapa que você precisa realizar é configurar um aplicativo de bot Discord real através do site do Discord.
