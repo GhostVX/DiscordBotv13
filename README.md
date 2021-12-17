@@ -24,3 +24,8 @@ disscord.js v13 requer o Node v16.6.0 ou superior.
 ```
 git clone https://github.com/kettraworld/DiscordBotv13
 ```
+
+**Agora você precisa instalar todas as dependências do nosso projeto que se encontra no "package.json" com o seguinte comando!
+```
+npm install 
+```
