@@ -46,4 +46,5 @@ Agora que instalou o Node, discord.js e com sorte o nosso repositório, você es
 3 • Insira um nome e confirme a janela pop-up clicando no botão "Criar".
 
 Você deverá ver uma página como esta:
+![](https://discordjs.guide/assets/create-app.ed82aede.png)
 
