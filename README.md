@@ -57,5 +57,7 @@ Neste painel, você pode dar ao seu bot um avatar estiloso, definir seu nome de 
 
 Um token é essencialmente a senha do seu bot; é o que o seu bot usa para fazer o login no Discord. Dito isso , é vital que você nunca compartilhe este token com ninguém, propositalmente ou acidentalmente . Se alguém conseguir obter seu token, ele poderá usar seu bot como se fosse dele - isso significa que pode realizar atos maliciosos com ele.
 
+# arquivos principais
+
 ...
 
