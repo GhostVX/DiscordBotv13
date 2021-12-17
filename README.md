@@ -33,7 +33,7 @@ git clone https://github.com/kettraworld/DiscordBotv13
 ```
 npm install 
 ```
-**agora coloque o seu token em ```config.json``` e ligue seu bot com o comando:***
+**agora coloque o seu token em ```config.json``` e ligue seu bot com o comando:**
 ```
 node .
 ```
