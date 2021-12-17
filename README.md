@@ -6,4 +6,6 @@ Nossa equipe estar desenvolvendo um bot da discórdia e resolveu compartilhar co
 
 # O Que São Bots Do Discord?
 
+![](https://psverso.com.br/wp-content/uploads/2021/08/discord-bots-768x432.png)
+
 Os bots são “robôs” que ajudam no gerenciamento de canais no Discord e são muito úteis para adicionar funções que a plataforma não possui nativamente. Essas vão desde identificar spam, criar resposta automáticas automatizar tarefas diárias até mesmo colocar músicas para tocar em um canal
