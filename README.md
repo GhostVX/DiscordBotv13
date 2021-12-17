@@ -48,8 +48,5 @@ Agora que instalou o Node, discord.js e com sorte o nosso repositório, você es
 Você deverá ver uma página como esta:
 ![](https://discordjs.guide/assets/create-app.ed82aede.png)
 Você pode editar o nome, a descrição e o avatar do seu aplicativo aqui. Depois de salvar suas alterações, prossiga selecionando a guia "Bot" no painel esquerdo.
-
-Você pode editar o nome, a descrição e o avatar do seu aplicativo aqui. Depois de salvar suas alterações, prossiga selecionando a guia "Bot" no painel esquerdo.
-
 ![](https://discordjs.guide/assets/create-bot.44c7ea49.png)
 
