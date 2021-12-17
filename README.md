@@ -49,4 +49,6 @@ Você deverá ver uma página como esta:
 ![](https://discordjs.guide/assets/create-app.ed82aede.png)
 Você pode editar o nome, a descrição e o avatar do seu aplicativo aqui. Depois de salvar suas alterações, prossiga selecionando a guia "Bot" no painel esquerdo.
 ![](https://discordjs.guide/assets/create-bot.44c7ea49.png)
+Clique no botão "Adicionar Bot" à direita e confirme a janela pop-up clicando em "Sim, faça isso!". Parabéns, agora você é o orgulhoso proprietário de um bot Discord novinho em folha! Você não está totalmente pronto, no entanto.
+
 
