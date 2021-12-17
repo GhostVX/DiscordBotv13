@@ -67,5 +67,11 @@ Armazenar dados em um config.json é uma maneira comum de manter seus valores co
 
 index.js é o arquivo mais importante para seu bot ele ira armazena os principais codigos do seu bot,mas voce pode mudar para qualquer nome basta e no package.json arquivo e editar o ```"main": "index.js"``` colocando no lugar do nome index 
 
+**O que é o package.json?**
+
+arquivo package. json é o ponto de partida de qualquer projeto NodeJS. Ele é responsável por descrever o seu projeto, informar as engines (versão do node e do npm), url do repositório, versão do projeto, dependências de produção e de desenvolvimento dentre outras coisas.
+
+
+
 ...
 
