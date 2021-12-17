@@ -9,3 +9,12 @@ Nossa equipe estar desenvolvendo um bot da discórdia e resolveu compartilhar co
 ![](https://psverso.com.br/wp-content/uploads/2021/08/discord-bots-768x432.png)
 
 Os bots são “robôs” que ajudam no gerenciamento de canais no Discord e são muito úteis para adicionar funções que a plataforma não possui nativamente. Essas vão desde identificar spam, criar resposta automáticas automatizar tarefas diárias até mesmo colocar músicas para tocar em um canal
+
+# instalação 
+![](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) 
+
+**O que é node js?**
+
+Node.js é um ambiente de tempo de execução JavaScript de código aberto, multiplataforma e back-end que roda no mecanismo V8 e executa o código JavaScript fora de um navegador da web.
+
+Para usar discord.js, você precisará ter instalado. discord.js v13 requer o Node v16.6.0 ou superior.
