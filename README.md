@@ -246,7 +246,40 @@ module.exports = {
 **Exemplo de um comando**
 
 neste exemplo de comando vai ser bem simores o famoso comando ping! veja aimqgem logo abaixo, lembrando defina seu prefixo em ```config.json```
+![](https://media.discordapp.net/attachments/913139602234171452/921773825274822737/Screenshot_20211218-113404.jpg)
 
+O codigo do comando logo acima ficará da seguinte forma!
+```js
+//pegamos os arquivos da blibioteca do discord.js 
+
+const Discord = require("discord.js");
+
+//Módulo de exportação
+
+module.exports = {
+
+//Damos o nome do comando ( não pode ser repetido os nomes)
+
+   name: "ping",
+
+//Damos as aliases ( que não podem ser repetidos)
+
+    aliases: ["ping"],
+
+//é usado em conjunto com um manipulador de comandos. a parte "async" informa ao javascript que esta é uma função assíncrona, permitindo, portanto, o uso de "await" e ".then".
+
+  run: async (client, message, args) => {
+
+//manda menssagem no canal com o ping do bot!
+
+      message.channel.send(`**${client.ws.ping}**ms`)
+
+//fechamos nosdo comandos
+
+  }
+
+  }
+```
 
 ...
 
