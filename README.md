@@ -237,6 +237,9 @@ module.exports = {
 //é usado em conjunto com um manipulador de comandos. a parte "async" informa ao javascript que esta é uma função assíncrona, permitindo, portanto, o uso de "await" e ".then".
 
   run: async (client, message, args) => {
+   //seu código do comando aqui dentro!
+  }
+  }
 
 ```
 
