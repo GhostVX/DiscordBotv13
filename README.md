@@ -211,7 +211,15 @@ client.on("messageCreate", async (message) => {
 
 ```
 
+# exportando oa comandos
 
+como visto anterior a hadler usamos para manipulação de comandos,isto quer dizer,que precisamos da hadler para nossos comandos poderem funcionar mas isso não é o bastate para o funcionamento precisamos também do ```module.exports``` e que nossa hadler aceite!
+
+**O Que é module.exports?**
+
+O module. exports nada mais é que uma variável retornada a partir da função require(). E é um objeto vazio por default. O exports na realidade nunca é retornado, obtemos apenas uma referência para o module.
+
+agora veremos um exemplo de module.exports aceita por nossa hadler:
 
 
 ...
