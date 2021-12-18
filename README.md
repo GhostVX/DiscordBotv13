@@ -243,6 +243,10 @@ module.exports = {
 
 ```
 
+**Exemplo de um comando**
+
+neste exemplo de comando vai ser bem simores o famoso comando ping! veja aimqgem logo abaixo, lembrando defina seu prefixo em ```config.json```
+
 
 ...
 
