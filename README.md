@@ -246,6 +246,7 @@ module.exports = {
 **Exemplo de um comando**
 
 neste exemplo de comando vai ser bem simores o famoso comando ping! veja aimqgem logo abaixo, lembrando defina seu prefixo em ```config.json```
+
 ![](https://media.discordapp.net/attachments/913139602234171452/921773825274822737/Screenshot_20211218-113404.jpg)
 
 O codigo do comando logo acima ficará da seguinte forma!
