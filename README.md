@@ -123,6 +123,95 @@ A menos que seu projeto de bot seja pequeno, não é uma idéia muito boa ter um
 
 uma hadler verifica se tem o prefixo, descrição, categoria e o nome do comando para ver se ele existe!
 
+aqui está um exemplo de uma hadler com subpasta:
+
+```js
+
+const fs = require("fs");
+
+client.commands = new Discord.Collection();
+
+client.aliases = new Discord.Collection();
+
+client.categories = fs.readdirSync(`./src/commands/`);
+
+fs.readdirSync('./src/commands/').forEach(local => {
+
+    const comandos = fs.readdirSync(`./src/commands/${local}`).filter(arquivo => arquivo.endsWith('.js'))
+
+    for(let file of comandos) {
+
+        let puxar= require(`./src/commands/${local}/${file}`)
+
+        if(puxar.name) {
+
+            client.commands.set(puxar.name, puxar)
+
+        } 
+
+        if(puxar.aliases && Array.isArray(puxar.aliases))
+
+        puxar.aliases.forEach(x => client.aliases.set(x, puxar.name))
+
+    } 
+
+});
+
+client.on("messageCreate", async (message) => {
+
+    let prefix = config.prefix;
+
+  
+
+      if (message.author.bot) return;
+
+      if (message.channel.type == 'dm') return;     
+
+  
+
+       if (!message.content.toLowerCase().startsWith(prefix.toLowerCase())) return;
+
+    
+
+      if(message.author.bot) return;
+
+      if(message.channel.type === 'dm') return;
+
+  
+
+      if(!message.content.startsWith(prefix)) return;
+
+      const args = message.content.slice(prefix.length).trim().split(/ +/g);
+
+  
+
+      let cmd = args.shift().toLowerCase()
+
+      if(cmd.length === 0) return;
+
+      let command = client.commands.get(cmd)
+
+      if(!command) command = client.commands.get(client.aliases.get(cmd)) 
+
+    
+
+  try {
+
+      command.run(client, message, args)
+
+  } catch (err) { 
+
+ 
+
+     console.error('Erro:' + err); 
+
+  }
+
+      });
+
+```
+
+
 
 
 ...
