@@ -121,7 +121,7 @@ A menos que seu projeto de bot seja pequeno, não é uma idéia muito boa ter um
 
 **O que é uma hadler?**
 
-uma hadler verifica se tem o prefixo, descrição, categoria e o nome do comando para ver se ele existe!
+manipulador de comandos ele verifica se tem o prefixo, descrição, categoria e o nome do comando para ver se ele existe!
 
 aqui está um exemplo de uma hadler com subpasta:
 
