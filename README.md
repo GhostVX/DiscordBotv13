@@ -211,7 +211,7 @@ client.on("messageCreate", async (message) => {
 
 ```
 
-# exportando oa comandos
+# exportando os comandos
 
 como visto anterior a hadler usamos para manipulação de comandos,isto quer dizer,que precisamos da hadler para nossos comandos poderem funcionar mas isso não é o bastate para o funcionamento precisamos também do ```module.exports``` e que nossa hadler aceite!
 
@@ -220,6 +220,25 @@ como visto anterior a hadler usamos para manipulação de comandos,isto quer diz
 O module. exports nada mais é que uma variável retornada a partir da função require(). E é um objeto vazio por default. O exports na realidade nunca é retornado, obtemos apenas uma referência para o module.
 
 agora veremos um exemplo de module.exports aceita por nossa hadler:
+```js
+
+//Módulo de exportação
+
+module.exports = {
+
+//Damos o nome do comando ( não pode ser repetido os nomes)
+
+    name: "nome",
+
+//Damos as aliases ( que não podem ser repetidos)
+
+    aliases: ["aliás"],
+
+//é usado em conjunto com um manipulador de comandos. a parte "async" informa ao javascript que esta é uma função assíncrona, permitindo, portanto, o uso de "await" e ".then".
+
+  run: async (client, message, args) => {
+
+```
 
 
 ...
