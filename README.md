@@ -287,8 +287,8 @@ module.exports = {
 **O que é embed?**
 Embeds são um tipo especial de mensagem no Discord, você provavelmente já viu elas antes... aquelas caixinhas que possuem uma corzinha na esquerda e que ainda por cima podem ter imagens, autor, footer e muito mais!
 
-**Logo a seguir vou da exemplo de um comando usando embed! lembra do comando anterior? vamos traformar em embed!
-```
+**Logo a seguir vou da exemplo de um comando usando embed! lembra do comando anterior? vamos traformar em embed!**
+```js
 
 const Discord = require("discord.js");
 
