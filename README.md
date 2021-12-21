@@ -320,7 +320,7 @@ fs.readdir("./src/events/", (err, files) => {
 
 });
 ```
-**aqui temos um evento chamado ready,assim que vice liga o bot ele vai da as informações mostradas no código:
+**aqui temos um evento chamado ready,assim que você liga o seu bot ele vai da as informações mostradas no código:**
 ```js
 module.exports = async (client, message) => {
 
