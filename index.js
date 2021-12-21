@@ -98,7 +98,7 @@ fs.readdir("./src/events/", (err, files) => {
     client.on(eventName, event.bind(null, client));
   });
 });
-
+/*
 client.on('guildMemberAdd', async (member) => {
     
     let guild = client.guilds.cache.get("893997835412971570"); 
@@ -123,4 +123,4 @@ client.on("ready", async () => {
       guildId: "893997835412971570",
       adapterCreator: guild.voiceAdapterCreator
   })
-}) 
+}) *\
