@@ -300,4 +300,25 @@ message.channel.send({ embeds: [embed] })
   
   O Node.js usa uma arquitetura orientada a eventos, tornando possível executar o código quando um evento específico ocorre. A biblioteca discord.js tira total proveito disso.
   
-**O codigo abaixo caregga as pasta que estao nossos eventos:**
+**O codigo abaixo carrega as pasta que estao nossos eventos:**
+```js
+fs.readdir("./src/events/", (err, files) => {
+
+  if (err) return console.error(err);
+
+  files.forEach(file => {
+
+    const event = require(`./src/events/${file}`);
+
+    let eventName = file.split(".")[0];
+
+    console.log(`Carregado: ${eventName}`);
+
+    client.on(eventName, event.bind(null, client));
+
+  });
+
+});
+```
+
+
