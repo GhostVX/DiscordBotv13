@@ -331,7 +331,7 @@ console.log(`${client.user.tag} foi iniciada em ${client.guilds.cache.size} sevi
 
 **Esperamos que gostem do bot,estamos deixando ele livre para qualquer pessoa baixar e dando uma breve espricacões dos comandos! eventos e etc!**
 
-para +informações veja o nosso ![wiki](https://github.com/kettraworld/DiscordBotv13/wiki)
+para ```+informações``` veja o nosso [wiki](https://github.com/kettraworld/DiscordBotv13/wiki/Welcome-to-our-Wiki!)
 
 ........
 
