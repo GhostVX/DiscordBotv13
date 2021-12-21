@@ -320,5 +320,14 @@ fs.readdir("./src/events/", (err, files) => {
 
 });
 ```
+**aqui temos um evento chamado ready,assim que vice liga o bot ele vai da as informações mostradas no código:
+```js
+module.exports = async (client, message) => {
 
+console.log(`${client.user.tag} foi iniciada em ${client.guilds.cache.size} sevidores!\ntendo acesso a ${client.channels.cache.size} canais!\ncontendo ${client.users.cache.size} usuarios!`);
+
+}
+```
+
+........
 
