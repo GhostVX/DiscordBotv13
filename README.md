@@ -137,26 +137,7 @@ client.categories = fs.readdirSync(`./src/commands/`);
 
 fs.readdirSync('./src/commands/').forEach(local => {
 
-    const comandos = fs.readdirSync(`./src/commands/${local}`).filter(arquivo => arquivo.endsWith('.js'))
-
-    for(let file of comandos) {
-
-        let puxar= require(`./src/commands/${local}/${file}`)
-
-        if(puxar.name) {
-
-            client.commands.set(puxar.name, puxar)
-
-        } 
-
-        if(puxar.aliases && Array.isArray(puxar.aliases))
-
-        puxar.aliases.forEach(x => client.aliases.set(x, puxar.name))
-
-    } 
-
-});
-
+    
 client.on("messageCreate", async (message) => {
 
     let prefix = config.prefix;
@@ -320,44 +301,3 @@ message.channel.send({ embeds: [embed] })
   O Node.js usa uma arquitetura orientada a eventos, tornando possível executar o código quando um evento específico ocorre. A biblioteca discord.js tira total proveito disso.
   
 **O codigo abaixo caregga as pasta que estao nossos eventos:**
-```js
-fs.readdir("./src/events/", (err, files) => {
-
-  if (err) return console.error(err);
-
-  files.forEach(file => {
-
-    const event = require(`./src/events/${file}`);
-
-    let eventName = file.split(".")[0];
-
-    console.log(`Carregado: ${eventName}`);
-
-    client.on(eventName, event.bind(null, client));
-
-  });
-
-});
-
-fs.readdir("./src/events/", (err, files) => {
-
-  if (err) return console.error(err);
-
-  files.forEach(file => {
-
-    const event = require(`./src/events/${file}`);
-
-    let eventName = file.split(".")[0];
-
-    console.log(`Carregado: ${eventName}`);
-
-    client.on(eventName, event.bind(null, client));
-
-  });
-
-});
-
-```
-  
-...
-
