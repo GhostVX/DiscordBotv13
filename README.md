@@ -329,5 +329,8 @@ console.log(`${client.user.tag} foi iniciada em ${client.guilds.cache.size} sevi
 }
 ```
 
+**Esperamos que gostem do bot,estamos deixando ele livre para qualquer pessoa baixar e dando uma breve espricacões dos comandos! eventos e etc!**
+
+
 ........
 
