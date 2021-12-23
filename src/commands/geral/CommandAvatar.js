@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 
 module.exports = {
   name: "avatar",
-  aliases: ['avatar', 'avt'],
+  aliases: ['Avatar', 'avt'],
   async run(bot, message, args) {
   let user = message.mentions.users.first() || message.author;
   const EMBED = new Discord.MessageEmbed()
