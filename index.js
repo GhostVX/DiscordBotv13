@@ -98,29 +98,4 @@ fs.readdir("./src/events/", (err, files) => {
     client.on(eventName, event.bind(null, client));
   });
 });
-/*
-client.on('guildMemberAdd', async (member) => {
-    
-    let guild = client.guilds.cache.get("893997835412971570"); 
-    let channel = client.channels.cache.get("913469099332493464"); 
-    let welcome = new Discord.MessageEmbed()
-    
-        .setColor("RANDOM")
-        .setTitle("Seja bem vindos a Kettra")
-        .setDescription(`${member.user.tag} Estamos atualmente com ${member.guild.memberCount} membros\nQue tal chamar mas amigos?\n\n**Quem Somos?**\n:rice_scene: KettraWorld é um servidor de minecraft rpg com estilo medieval\nVoçe começara sua jornada com a gente e escrever sua própria história :book:\n\n**Veja nossas regras!**\nimportante que vocé lé as nossas regras para manter uma boa convivencia com as pessoas! **Digite K.ip e digo no pv!**`)
-        .setThumbnail(`${member.displayAvatarURL()}`)
-        .setImage(`https://kettraworld.github.io/assets/wel.jpg`)
-         .setTimestamp()
 
-    await channel.send({ content: `${member}`, embeds: [welcome] })
-  
-
-});
-client.on("ready", async () => {
-  const guild = await client.guilds.fetch("893997835412971570");
-  const connection = joinVoiceChannel({
-      channelId: "894004767762825237",
-      guildId: "893997835412971570",
-      adapterCreator: guild.voiceAdapterCreator
-  })
-}) *\
