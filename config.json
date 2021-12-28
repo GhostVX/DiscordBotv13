@@ -1,7 +1,7 @@
 {
-
+  //coloque o token do seu bot!
     "token":"SEU TOKEN!",
-
+//coloque o prefixo do seu bot ex: +
     "prefix":"SEU PREFIXO!"
 
 }
